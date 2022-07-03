@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <!-- 引入bootstrap样式 -->
+    <!-- <link rel="stylesheet" href="<%= BASE_URL %>css/bootstrap.css"> -->
+    <!-- 如果出错可以改为 v=2.0 http为https -->
+    <script src="http://api.map.baidu.com/getscript?v=3.0&ak=2VHM8W0Ebxx8S4WvgwXr2E7DxI9cMxz0"></script>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

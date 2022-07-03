@@ -1,0 +1,2 @@
+FLASK_APP=PlantsMap
+FLASK_ENV=development
