@@ -7,3 +7,4 @@
 
 ## 网站首页
 ![](img/index.png)
+![](img/index2.png)
